@@ -1,0 +1,47 @@
+{
+  "n_children": 1470,
+  "delays": [
+    {
+      "id": "delay_1",
+      "label": "Delay 1: Deciding to Seek",
+      "short_label": "D1: Deciding",
+      "pct": 0.0,
+      "color": "#3498db",
+      "mean_shap": 0.367,
+      "top_features": [
+        "autonomy",
+        "permission",
+        "media2",
+        "covid_willing"
+      ]
+    },
+    {
+      "id": "delay_2",
+      "label": "Delay 2: Reaching Care",
+      "short_label": "D2: Reaching",
+      "pct": 2.6,
+      "color": "#f39c12",
+      "mean_shap": 0.809,
+      "top_features": [
+        "travel_time",
+        "rural",
+        "com_poverty",
+        "Travel_Times"
+      ]
+    },
+    {
+      "id": "delay_3",
+      "label": "Delay 3: Receiving Care",
+      "short_label": "D3: Receiving",
+      "pct": 97.4,
+      "color": "#e74c3c",
+      "mean_shap": 2.804,
+      "top_features": [
+        "contact_count",
+        "h69",
+        "contact_sba",
+        "antenat"
+      ]
+    }
+  ]
+}

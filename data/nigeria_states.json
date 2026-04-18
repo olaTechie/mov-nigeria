@@ -1,0 +1,335 @@
+[
+  {
+    "state_code": 1,
+    "state_name": "Abia",
+    "n": 214,
+    "mov_cases": 72,
+    "mov_rate": 33.6,
+    "full_vac_rate": 6.1,
+    "contact_rate": 39.7
+  },
+  {
+    "state_code": 2,
+    "state_name": "Adamawa",
+    "n": 139,
+    "mov_cases": 59,
+    "mov_rate": 42.4,
+    "full_vac_rate": 4.3,
+    "contact_rate": 46.8
+  },
+  {
+    "state_code": 3,
+    "state_name": "Akwa Ibom",
+    "n": 201,
+    "mov_cases": 101,
+    "mov_rate": 50.2,
+    "full_vac_rate": 29.9,
+    "contact_rate": 80.1
+  },
+  {
+    "state_code": 4,
+    "state_name": "Anambra",
+    "n": 205,
+    "mov_cases": 89,
+    "mov_rate": 43.4,
+    "full_vac_rate": 46.3,
+    "contact_rate": 89.8
+  },
+  {
+    "state_code": 5,
+    "state_name": "Bauchi",
+    "n": 208,
+    "mov_cases": 113,
+    "mov_rate": 54.3,
+    "full_vac_rate": 33.7,
+    "contact_rate": 88.0
+  },
+  {
+    "state_code": 6,
+    "state_name": "Bayelsa",
+    "n": 160,
+    "mov_cases": 100,
+    "mov_rate": 62.5,
+    "full_vac_rate": 25.6,
+    "contact_rate": 88.1
+  },
+  {
+    "state_code": 7,
+    "state_name": "Benue",
+    "n": 151,
+    "mov_cases": 90,
+    "mov_rate": 59.6,
+    "full_vac_rate": 33.1,
+    "contact_rate": 92.7
+  },
+  {
+    "state_code": 8,
+    "state_name": "Borno",
+    "n": 174,
+    "mov_cases": 86,
+    "mov_rate": 49.4,
+    "full_vac_rate": 37.4,
+    "contact_rate": 86.8
+  },
+  {
+    "state_code": 9,
+    "state_name": "Cross River",
+    "n": 207,
+    "mov_cases": 79,
+    "mov_rate": 38.2,
+    "full_vac_rate": 39.1,
+    "contact_rate": 77.3
+  },
+  {
+    "state_code": 10,
+    "state_name": "Delta",
+    "n": 273,
+    "mov_cases": 123,
+    "mov_rate": 45.1,
+    "full_vac_rate": 33.0,
+    "contact_rate": 78.0
+  },
+  {
+    "state_code": 11,
+    "state_name": "Ebonyi",
+    "n": 221,
+    "mov_cases": 100,
+    "mov_rate": 45.2,
+    "full_vac_rate": 32.1,
+    "contact_rate": 77.4
+  },
+  {
+    "state_code": 12,
+    "state_name": "Edo",
+    "n": 223,
+    "mov_cases": 93,
+    "mov_rate": 41.7,
+    "full_vac_rate": 9.0,
+    "contact_rate": 50.7
+  },
+  {
+    "state_code": 13,
+    "state_name": "Ekiti",
+    "n": 172,
+    "mov_cases": 80,
+    "mov_rate": 46.5,
+    "full_vac_rate": 20.9,
+    "contact_rate": 67.4
+  },
+  {
+    "state_code": 14,
+    "state_name": "Enugu",
+    "n": 86,
+    "mov_cases": 50,
+    "mov_rate": 58.1,
+    "full_vac_rate": 40.7,
+    "contact_rate": 98.8
+  },
+  {
+    "state_code": 15,
+    "state_name": "Gombe",
+    "n": 133,
+    "mov_cases": 69,
+    "mov_rate": 51.9,
+    "full_vac_rate": 43.6,
+    "contact_rate": 95.5
+  },
+  {
+    "state_code": 16,
+    "state_name": "Imo",
+    "n": 156,
+    "mov_cases": 93,
+    "mov_rate": 59.6,
+    "full_vac_rate": 24.4,
+    "contact_rate": 84.0
+  },
+  {
+    "state_code": 17,
+    "state_name": "Jigawa",
+    "n": 129,
+    "mov_cases": 70,
+    "mov_rate": 54.3,
+    "full_vac_rate": 20.9,
+    "contact_rate": 75.2
+  },
+  {
+    "state_code": 18,
+    "state_name": "Kaduna",
+    "n": 99,
+    "mov_cases": 62,
+    "mov_rate": 62.6,
+    "full_vac_rate": 19.2,
+    "contact_rate": 81.8
+  },
+  {
+    "state_code": 19,
+    "state_name": "Kano",
+    "n": 121,
+    "mov_cases": 76,
+    "mov_rate": 62.8,
+    "full_vac_rate": 15.7,
+    "contact_rate": 78.5
+  },
+  {
+    "state_code": 20,
+    "state_name": "Katsina",
+    "n": 107,
+    "mov_cases": 42,
+    "mov_rate": 39.3,
+    "full_vac_rate": 27.1,
+    "contact_rate": 66.4
+  },
+  {
+    "state_code": 21,
+    "state_name": "Kebbi",
+    "n": 90,
+    "mov_cases": 56,
+    "mov_rate": 62.2,
+    "full_vac_rate": 26.7,
+    "contact_rate": 88.9
+  },
+  {
+    "state_code": 22,
+    "state_name": "Kogi",
+    "n": 66,
+    "mov_cases": 31,
+    "mov_rate": 47.0,
+    "full_vac_rate": 51.5,
+    "contact_rate": 98.5
+  },
+  {
+    "state_code": 23,
+    "state_name": "Kwara",
+    "n": 50,
+    "mov_cases": 24,
+    "mov_rate": 48.0,
+    "full_vac_rate": 52.0,
+    "contact_rate": 100.0
+  },
+  {
+    "state_code": 24,
+    "state_name": "Lagos",
+    "n": 62,
+    "mov_cases": 28,
+    "mov_rate": 45.2,
+    "full_vac_rate": 43.5,
+    "contact_rate": 88.7
+  },
+  {
+    "state_code": 25,
+    "state_name": "Nasarawa",
+    "n": 79,
+    "mov_cases": 39,
+    "mov_rate": 49.4,
+    "full_vac_rate": 50.6,
+    "contact_rate": 100.0
+  },
+  {
+    "state_code": 26,
+    "state_name": "Niger",
+    "n": 94,
+    "mov_cases": 55,
+    "mov_rate": 58.5,
+    "full_vac_rate": 40.4,
+    "contact_rate": 98.9
+  },
+  {
+    "state_code": 27,
+    "state_name": "Ogun",
+    "n": 78,
+    "mov_cases": 40,
+    "mov_rate": 51.3,
+    "full_vac_rate": 47.4,
+    "contact_rate": 98.7
+  },
+  {
+    "state_code": 28,
+    "state_name": "Ondo",
+    "n": 173,
+    "mov_cases": 87,
+    "mov_rate": 50.3,
+    "full_vac_rate": 49.7,
+    "contact_rate": 100.0
+  },
+  {
+    "state_code": 29,
+    "state_name": "Osun",
+    "n": 66,
+    "mov_cases": 32,
+    "mov_rate": 48.5,
+    "full_vac_rate": 51.5,
+    "contact_rate": 100.0
+  },
+  {
+    "state_code": 30,
+    "state_name": "Oyo",
+    "n": 78,
+    "mov_cases": 48,
+    "mov_rate": 61.5,
+    "full_vac_rate": 33.3,
+    "contact_rate": 94.9
+  },
+  {
+    "state_code": 31,
+    "state_name": "Plateau",
+    "n": 79,
+    "mov_cases": 53,
+    "mov_rate": 67.1,
+    "full_vac_rate": 31.6,
+    "contact_rate": 98.7
+  },
+  {
+    "state_code": 32,
+    "state_name": "Rivers",
+    "n": 114,
+    "mov_cases": 51,
+    "mov_rate": 44.7,
+    "full_vac_rate": 55.3,
+    "contact_rate": 100.0
+  },
+  {
+    "state_code": 33,
+    "state_name": "Sokoto",
+    "n": 100,
+    "mov_cases": 47,
+    "mov_rate": 47.0,
+    "full_vac_rate": 40.0,
+    "contact_rate": 87.0
+  },
+  {
+    "state_code": 34,
+    "state_name": "Taraba",
+    "n": 82,
+    "mov_cases": 25,
+    "mov_rate": 30.5,
+    "full_vac_rate": 58.5,
+    "contact_rate": 89.0
+  },
+  {
+    "state_code": 35,
+    "state_name": "Yobe",
+    "n": 105,
+    "mov_cases": 45,
+    "mov_rate": 42.9,
+    "full_vac_rate": 54.3,
+    "contact_rate": 97.1
+  },
+  {
+    "state_code": 36,
+    "state_name": "Zamfara",
+    "n": 99,
+    "mov_cases": 39,
+    "mov_rate": 39.4,
+    "full_vac_rate": 60.6,
+    "contact_rate": 100.0
+  },
+  {
+    "state_code": 37,
+    "state_name": "FCT Abuja",
+    "n": 104,
+    "mov_cases": 59,
+    "mov_rate": 56.7,
+    "full_vac_rate": 42.3,
+    "contact_rate": 99.0
+  }
+]

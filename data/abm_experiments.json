@@ -1,0 +1,790 @@
+{
+  "experiments": {
+    "1_baseline": [
+      {
+        "step": 0,
+        "mov_rate": 0.4994,
+        "provider_screening_rate": 0.241,
+        "vaccinated_count": 2503,
+        "provider_active_frac": 0.006
+      },
+      {
+        "step": 10,
+        "mov_rate": 0.4958,
+        "provider_screening_rate": 0.2222,
+        "vaccinated_count": 2521,
+        "provider_active_frac": 0.004
+      },
+      {
+        "step": 20,
+        "mov_rate": 0.4924,
+        "provider_screening_rate": 0.2153,
+        "vaccinated_count": 2538,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 30,
+        "mov_rate": 0.4886,
+        "provider_screening_rate": 0.2124,
+        "vaccinated_count": 2557,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 40,
+        "mov_rate": 0.4844,
+        "provider_screening_rate": 0.2111,
+        "vaccinated_count": 2578,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 50,
+        "mov_rate": 0.4814,
+        "provider_screening_rate": 0.2105,
+        "vaccinated_count": 2593,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 60,
+        "mov_rate": 0.4796,
+        "provider_screening_rate": 0.2102,
+        "vaccinated_count": 2602,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 70,
+        "mov_rate": 0.4762,
+        "provider_screening_rate": 0.21,
+        "vaccinated_count": 2619,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 80,
+        "mov_rate": 0.472,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2640,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 90,
+        "mov_rate": 0.4666,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2667,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 100,
+        "mov_rate": 0.4628,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2686,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 110,
+        "mov_rate": 0.4594,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2703,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 120,
+        "mov_rate": 0.4556,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2722,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 130,
+        "mov_rate": 0.4518,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2741,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 140,
+        "mov_rate": 0.4486,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2757,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 150,
+        "mov_rate": 0.4428,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2786,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 160,
+        "mov_rate": 0.439,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2805,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 170,
+        "mov_rate": 0.4344,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2828,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 180,
+        "mov_rate": 0.4308,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2846,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 190,
+        "mov_rate": 0.4262,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2869,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 200,
+        "mov_rate": 0.4218,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2891,
+        "provider_active_frac": 0.002
+      }
+    ],
+    "2_provider_training": [
+      {
+        "step": 0,
+        "mov_rate": 0.4994,
+        "provider_screening_rate": 0.241,
+        "vaccinated_count": 2503,
+        "provider_active_frac": 0.006
+      },
+      {
+        "step": 10,
+        "mov_rate": 0.491,
+        "provider_screening_rate": 0.421,
+        "vaccinated_count": 2545,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 20,
+        "mov_rate": 0.483,
+        "provider_screening_rate": 0.4142,
+        "vaccinated_count": 2585,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 30,
+        "mov_rate": 0.4764,
+        "provider_screening_rate": 0.412,
+        "vaccinated_count": 2618,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 40,
+        "mov_rate": 0.4676,
+        "provider_screening_rate": 0.411,
+        "vaccinated_count": 2662,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 50,
+        "mov_rate": 0.46,
+        "provider_screening_rate": 0.4106,
+        "vaccinated_count": 2700,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 60,
+        "mov_rate": 0.4524,
+        "provider_screening_rate": 0.4104,
+        "vaccinated_count": 2738,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 70,
+        "mov_rate": 0.4468,
+        "provider_screening_rate": 0.4103,
+        "vaccinated_count": 2766,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 80,
+        "mov_rate": 0.4402,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 2799,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 90,
+        "mov_rate": 0.432,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 2840,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 100,
+        "mov_rate": 0.4244,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 2878,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 110,
+        "mov_rate": 0.4172,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 2914,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 120,
+        "mov_rate": 0.411,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 2945,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 130,
+        "mov_rate": 0.4062,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 2969,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 140,
+        "mov_rate": 0.398,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 3010,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 150,
+        "mov_rate": 0.388,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 3060,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 160,
+        "mov_rate": 0.3798,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 3101,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 170,
+        "mov_rate": 0.3714,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 3143,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 180,
+        "mov_rate": 0.3644,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 3178,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 190,
+        "mov_rate": 0.3584,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 3208,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 200,
+        "mov_rate": 0.3506,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 3247,
+        "provider_active_frac": 0.322
+      }
+    ],
+    "3_caregiver_champions": [
+      {
+        "step": 0,
+        "mov_rate": 0.4994,
+        "provider_screening_rate": 0.241,
+        "vaccinated_count": 2503,
+        "provider_active_frac": 0.006
+      },
+      {
+        "step": 10,
+        "mov_rate": 0.4958,
+        "provider_screening_rate": 0.2222,
+        "vaccinated_count": 2521,
+        "provider_active_frac": 0.004
+      },
+      {
+        "step": 20,
+        "mov_rate": 0.4924,
+        "provider_screening_rate": 0.2153,
+        "vaccinated_count": 2538,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 30,
+        "mov_rate": 0.4886,
+        "provider_screening_rate": 0.2124,
+        "vaccinated_count": 2557,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 40,
+        "mov_rate": 0.4844,
+        "provider_screening_rate": 0.2111,
+        "vaccinated_count": 2578,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 50,
+        "mov_rate": 0.4814,
+        "provider_screening_rate": 0.2105,
+        "vaccinated_count": 2593,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 60,
+        "mov_rate": 0.4796,
+        "provider_screening_rate": 0.2102,
+        "vaccinated_count": 2602,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 70,
+        "mov_rate": 0.4762,
+        "provider_screening_rate": 0.21,
+        "vaccinated_count": 2619,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 80,
+        "mov_rate": 0.472,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2640,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 90,
+        "mov_rate": 0.4666,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2667,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 100,
+        "mov_rate": 0.4628,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2686,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 110,
+        "mov_rate": 0.4594,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2703,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 120,
+        "mov_rate": 0.4556,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2722,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 130,
+        "mov_rate": 0.4518,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2741,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 140,
+        "mov_rate": 0.4486,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2757,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 150,
+        "mov_rate": 0.4428,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2786,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 160,
+        "mov_rate": 0.439,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2805,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 170,
+        "mov_rate": 0.4344,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2828,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 180,
+        "mov_rate": 0.4308,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2846,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 190,
+        "mov_rate": 0.4262,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2869,
+        "provider_active_frac": 0.002
+      },
+      {
+        "step": 200,
+        "mov_rate": 0.4218,
+        "provider_screening_rate": 0.2099,
+        "vaccinated_count": 2891,
+        "provider_active_frac": 0.002
+      }
+    ],
+    "4_combined": [
+      {
+        "step": 0,
+        "mov_rate": 0.4994,
+        "provider_screening_rate": 0.241,
+        "vaccinated_count": 2503,
+        "provider_active_frac": 0.006
+      },
+      {
+        "step": 10,
+        "mov_rate": 0.491,
+        "provider_screening_rate": 0.421,
+        "vaccinated_count": 2545,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 20,
+        "mov_rate": 0.4836,
+        "provider_screening_rate": 0.4142,
+        "vaccinated_count": 2582,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 30,
+        "mov_rate": 0.4764,
+        "provider_screening_rate": 0.412,
+        "vaccinated_count": 2618,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 40,
+        "mov_rate": 0.4692,
+        "provider_screening_rate": 0.411,
+        "vaccinated_count": 2654,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 50,
+        "mov_rate": 0.461,
+        "provider_screening_rate": 0.4106,
+        "vaccinated_count": 2695,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 60,
+        "mov_rate": 0.4534,
+        "provider_screening_rate": 0.4104,
+        "vaccinated_count": 2733,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 70,
+        "mov_rate": 0.4466,
+        "provider_screening_rate": 0.4103,
+        "vaccinated_count": 2767,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 80,
+        "mov_rate": 0.4406,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 2797,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 90,
+        "mov_rate": 0.4324,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 2838,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 100,
+        "mov_rate": 0.4262,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 2869,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 110,
+        "mov_rate": 0.4182,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 2909,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 120,
+        "mov_rate": 0.4122,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 2939,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 130,
+        "mov_rate": 0.4086,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 2957,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 140,
+        "mov_rate": 0.4002,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 2999,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 150,
+        "mov_rate": 0.3902,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 3049,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 160,
+        "mov_rate": 0.382,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 3090,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 170,
+        "mov_rate": 0.3742,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 3129,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 180,
+        "mov_rate": 0.3672,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 3164,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 190,
+        "mov_rate": 0.3608,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 3196,
+        "provider_active_frac": 0.322
+      },
+      {
+        "step": 200,
+        "mov_rate": 0.3542,
+        "provider_screening_rate": 0.4102,
+        "vaccinated_count": 3229,
+        "provider_active_frac": 0.322
+      }
+    ],
+    "5_network_provider": [
+      {
+        "step": 0,
+        "mov_rate": 0.4994,
+        "provider_screening_rate": 0.241,
+        "vaccinated_count": 2503,
+        "provider_active_frac": 0.006
+      },
+      {
+        "step": 10,
+        "mov_rate": 0.4954,
+        "provider_screening_rate": 0.2813,
+        "vaccinated_count": 2523,
+        "provider_active_frac": 0.08
+      },
+      {
+        "step": 20,
+        "mov_rate": 0.4904,
+        "provider_screening_rate": 0.2836,
+        "vaccinated_count": 2548,
+        "provider_active_frac": 0.08
+      },
+      {
+        "step": 30,
+        "mov_rate": 0.4834,
+        "provider_screening_rate": 0.285,
+        "vaccinated_count": 2583,
+        "provider_active_frac": 0.08
+      },
+      {
+        "step": 40,
+        "mov_rate": 0.4794,
+        "provider_screening_rate": 0.2857,
+        "vaccinated_count": 2603,
+        "provider_active_frac": 0.08
+      },
+      {
+        "step": 50,
+        "mov_rate": 0.4736,
+        "provider_screening_rate": 0.2862,
+        "vaccinated_count": 2632,
+        "provider_active_frac": 0.08
+      },
+      {
+        "step": 60,
+        "mov_rate": 0.4694,
+        "provider_screening_rate": 0.2865,
+        "vaccinated_count": 2653,
+        "provider_active_frac": 0.08
+      },
+      {
+        "step": 70,
+        "mov_rate": 0.4636,
+        "provider_screening_rate": 0.2867,
+        "vaccinated_count": 2682,
+        "provider_active_frac": 0.08
+      },
+      {
+        "step": 80,
+        "mov_rate": 0.4572,
+        "provider_screening_rate": 0.2868,
+        "vaccinated_count": 2714,
+        "provider_active_frac": 0.08
+      },
+      {
+        "step": 90,
+        "mov_rate": 0.451,
+        "provider_screening_rate": 0.2869,
+        "vaccinated_count": 2745,
+        "provider_active_frac": 0.08
+      },
+      {
+        "step": 100,
+        "mov_rate": 0.4478,
+        "provider_screening_rate": 0.2869,
+        "vaccinated_count": 2761,
+        "provider_active_frac": 0.08
+      },
+      {
+        "step": 110,
+        "mov_rate": 0.441,
+        "provider_screening_rate": 0.2869,
+        "vaccinated_count": 2795,
+        "provider_active_frac": 0.08
+      },
+      {
+        "step": 120,
+        "mov_rate": 0.4366,
+        "provider_screening_rate": 0.2869,
+        "vaccinated_count": 2817,
+        "provider_active_frac": 0.08
+      },
+      {
+        "step": 130,
+        "mov_rate": 0.429,
+        "provider_screening_rate": 0.2869,
+        "vaccinated_count": 2855,
+        "provider_active_frac": 0.08
+      },
+      {
+        "step": 140,
+        "mov_rate": 0.4256,
+        "provider_screening_rate": 0.287,
+        "vaccinated_count": 2872,
+        "provider_active_frac": 0.08
+      },
+      {
+        "step": 150,
+        "mov_rate": 0.4198,
+        "provider_screening_rate": 0.287,
+        "vaccinated_count": 2901,
+        "provider_active_frac": 0.08
+      },
+      {
+        "step": 160,
+        "mov_rate": 0.416,
+        "provider_screening_rate": 0.287,
+        "vaccinated_count": 2920,
+        "provider_active_frac": 0.08
+      },
+      {
+        "step": 170,
+        "mov_rate": 0.4118,
+        "provider_screening_rate": 0.287,
+        "vaccinated_count": 2941,
+        "provider_active_frac": 0.08
+      },
+      {
+        "step": 180,
+        "mov_rate": 0.4048,
+        "provider_screening_rate": 0.287,
+        "vaccinated_count": 2976,
+        "provider_active_frac": 0.08
+      },
+      {
+        "step": 190,
+        "mov_rate": 0.401,
+        "provider_screening_rate": 0.287,
+        "vaccinated_count": 2995,
+        "provider_active_frac": 0.08
+      },
+      {
+        "step": 200,
+        "mov_rate": 0.3956,
+        "provider_screening_rate": 0.287,
+        "vaccinated_count": 3022,
+        "provider_active_frac": 0.08
+      }
+    ]
+  },
+  "summary": [
+    {
+      "experiment": "2_provider_training",
+      "label": "Provider training (bottom 50% \u2192 0.95)",
+      "baseline_mov": 0.4218,
+      "intervention_mov": 0.3506,
+      "absolute_reduction": 0.0712,
+      "pct_reduction": 16.9
+    },
+    {
+      "experiment": "3_caregiver_champions",
+      "label": "Caregiver champions (top 10% centrality \u2192 0.95)",
+      "baseline_mov": 0.4218,
+      "intervention_mov": 0.4218,
+      "absolute_reduction": 0.0,
+      "pct_reduction": 0.0
+    },
+    {
+      "experiment": "4_combined",
+      "label": "Combined (provider + caregiver)",
+      "baseline_mov": 0.4218,
+      "intervention_mov": 0.3542,
+      "absolute_reduction": 0.0676,
+      "pct_reduction": 16.0
+    },
+    {
+      "experiment": "5_network_provider",
+      "label": "Network-informed provider (top 10% centrality \u2192 0.95)",
+      "baseline_mov": 0.4218,
+      "intervention_mov": 0.3956,
+      "absolute_reduction": 0.0262,
+      "pct_reduction": 6.2
+    }
+  ],
+  "experiment_labels": {
+    "1_baseline": "Baseline",
+    "2_provider_training": "Provider Training",
+    "3_caregiver_champions": "Caregiver Champions",
+    "4_combined": "Combined",
+    "5_network_provider": "Network-Informed"
+  }
+}

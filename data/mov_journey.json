@@ -1,0 +1,76 @@
+{
+  "total_children": 4898,
+  "total_mov": 2406,
+  "mov_rate": 49.1,
+  "contact_rate": 82.4,
+  "contact_types": [
+    {
+      "id": "sba",
+      "label": "Skilled Birth Attendance",
+      "feature": "contact_sba"
+    },
+    {
+      "id": "postnatal",
+      "label": "Postnatal Care",
+      "feature": "contact_postnatal"
+    },
+    {
+      "id": "vita",
+      "label": "Vitamin A",
+      "feature": "contact_vita"
+    },
+    {
+      "id": "hcard",
+      "label": "Health Card",
+      "feature": "contact_hcard"
+    },
+    {
+      "id": "diarr",
+      "label": "Diarrhoea Treatment",
+      "feature": "contact_diarr"
+    },
+    {
+      "id": "fever_cough",
+      "label": "Fever/Cough Treatment",
+      "feature": "contact_fever_cough"
+    }
+  ],
+  "stations": [
+    {
+      "id": "sba",
+      "label": "Birth",
+      "icon": "\ud83c\udfe5",
+      "vaccinated_pct": 12
+    },
+    {
+      "id": "postnatal",
+      "label": "Postnatal",
+      "icon": "\ud83c\udfe5",
+      "vaccinated_pct": 18
+    },
+    {
+      "id": "vita",
+      "label": "Vitamin A",
+      "icon": "\ud83c\udfe5",
+      "vaccinated_pct": 22
+    },
+    {
+      "id": "hcard",
+      "label": "Health Card",
+      "icon": "\ud83c\udfe5",
+      "vaccinated_pct": 28
+    },
+    {
+      "id": "diarr",
+      "label": "Sick Visit",
+      "icon": "\ud83c\udfe5",
+      "vaccinated_pct": 35
+    },
+    {
+      "id": "fever_cough",
+      "label": "Fever/Cough",
+      "icon": "\ud83c\udfe5",
+      "vaccinated_pct": 51
+    }
+  ]
+}
