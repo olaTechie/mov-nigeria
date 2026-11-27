@@ -1,0 +1,29 @@
+{
+ "n_all": 4898,
+ "n_contacted": 4038,
+ "events": 2429,
+ "prev_weighted": 0.492,
+ "prev_contacted_weighted": 0.601,
+ "auc": 0.785,
+ "auc_lo": 0.754,
+ "auc_hi": 0.815,
+ "auc_contacted": 0.698,
+ "auc_contacted_lo": 0.664,
+ "auc_contacted_hi": 0.731,
+ "loro_mean": 0.716,
+ "loro_min": 0.573,
+ "loro_max": 0.836,
+ "delay_shares": [
+  15.5,
+  54.3,
+  30.2
+ ],
+ "delay2_dominant": 92.5,
+ "delay2_share_refit": 71.7,
+ "p_D_preferred": 1.0,
+ "D_fic_millions": 3.9,
+ "D_dalys_millions": 1.36,
+ "D_dominates_B": 0.6952,
+ "breakeven_B": 42.0,
+ "breakeven_178": 1218.0
+}

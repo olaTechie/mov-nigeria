@@ -1,0 +1,110 @@
+{
+ "n_draws": 10000,
+ "thresholds": [
+  178,
+  1100,
+  2200
+ ],
+ "p_D_highest_nmb": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "dominance": [
+  {
+   "vs": "A",
+   "p": 1.0
+  },
+  {
+   "vs": "B",
+   "p": 0.6952
+  },
+  {
+   "vs": "C",
+   "p": 0.9988
+  }
+ ],
+ "breakeven_per_facility_year": {
+  "dominance_A": 237.0,
+  "dominance_B": 42.0,
+  "dominance_C": 172.0,
+  "preferred_178": 1218.0,
+  "preferred_1100": 6363.0,
+  "preferred_2200": 12487.0
+ },
+ "rows": [
+  {
+   "key": "A",
+   "label": "A: universal training",
+   "intervention_cost_musd": 55.3,
+   "offset_musd": 14.8,
+   "net_cost_musd": 40.5,
+   "net_cost_lo_musd": 11.0,
+   "net_cost_hi_musd": 68.4,
+   "dalys": 355948.0,
+   "nmb_178_musd": 22.9,
+   "nmb_1100_musd": 351.1,
+   "nmb_2200_musd": 742.6,
+   "icer": 113.75,
+   "p_cost_saving": 0.0027
+  },
+  {
+   "key": "B",
+   "label": "B: targeted training",
+   "intervention_cost_musd": 11.1,
+   "offset_musd": 6.4,
+   "net_cost_musd": 4.6,
+   "net_cost_lo_musd": -6.0,
+   "net_cost_hi_musd": 12.9,
+   "dalys": 160478.0,
+   "nmb_178_musd": 23.9,
+   "nmb_1100_musd": 171.9,
+   "nmb_2200_musd": 348.4,
+   "icer": 28.97,
+   "p_cost_saving": 0.2018
+  },
+  {
+   "key": "C",
+   "label": "C: progressive scale-up",
+   "intervention_cost_musd": 33.2,
+   "offset_musd": 4.2,
+   "net_cost_musd": 28.6,
+   "net_cost_lo_musd": 13.5,
+   "net_cost_hi_musd": 43.1,
+   "dalys": 96094.0,
+   "nmb_178_musd": -11.5,
+   "nmb_1100_musd": 77.1,
+   "nmb_2200_musd": 182.8,
+   "icer": 298.14,
+   "p_cost_saving": 0.0
+  },
+  {
+   "key": "D",
+   "label": "D: integrated delivery",
+   "intervention_cost_musd": 55.3,
+   "offset_musd": 58.2,
+   "net_cost_musd": -3.2,
+   "net_cost_lo_musd": -40.2,
+   "net_cost_hi_musd": 30.3,
+   "dalys": 1355697.0,
+   "nmb_178_musd": 244.5,
+   "nmb_1100_musd": 1494.4,
+   "nmb_2200_musd": 2985.7,
+   "icer": null,
+   "p_cost_saving": 0.5636
+  }
+ ],
+ "assumptions": {
+  "facility_cost_usd": 300,
+  "facilities": 33000,
+  "offset_per_fic_usd": 15,
+  "price_year": 2024,
+  "discount": 0.03,
+  "perspective": "health system",
+  "horizon": "2025 to 2030",
+  "daly_per_fic_range": [
+   0.28,
+   0.43
+  ]
+ }
+}

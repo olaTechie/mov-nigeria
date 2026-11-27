@@ -1,0 +1,497 @@
+{
+ "domains": [
+  {
+   "population": "Primary model, all test children (n = 1,408)",
+   "share": [
+    15.5,
+    54.3,
+    30.2
+   ],
+   "dominant": [
+    1.0,
+    92.5,
+    6.5
+   ],
+   "subdomains": {
+    "Individual": 9.4,
+    "Household": 6.1,
+    "Community": 34.2,
+    "Geospatial": 20.1,
+    "Institutional": 30.2
+   }
+  },
+  {
+   "population": "Primary model, test children with contact (n = 1,165)",
+   "share": [
+    18.5,
+    50.9,
+    30.6
+   ],
+   "dominant": [
+    1.2,
+    91.1,
+    7.7
+   ],
+   "subdomains": {
+    "Individual": 11.2,
+    "Household": 7.3,
+    "Community": 26.9,
+    "Geospatial": 24.0,
+    "Institutional": 30.6
+   }
+  },
+  {
+   "population": "Refitted model, test children with contact (n = 1,165)",
+   "share": [
+    19.7,
+    71.7,
+    8.5
+   ],
+   "dominant": [
+    0.1,
+    99.9,
+    0.0
+   ],
+   "subdomains": {
+    "Individual": 10.8,
+    "Household": 8.9,
+    "Community": 46.8,
+    "Geospatial": 24.9,
+    "Institutional": 8.5
+   }
+  }
+ ],
+ "delay2_refit_minus_primary": {
+  "est": 20.8,
+  "lo": 19.0,
+  "hi": 22.8
+ },
+ "zones": [
+  {
+   "zone": "North Central",
+   "share": [
+    14.6,
+    53.8,
+    31.6
+   ]
+  },
+  {
+   "zone": "North East",
+   "share": [
+    15.0,
+    55.1,
+    29.9
+   ]
+  },
+  {
+   "zone": "North West",
+   "share": [
+    11.6,
+    54.8,
+    33.6
+   ]
+  },
+  {
+   "zone": "South East",
+   "share": [
+    22.5,
+    53.4,
+    24.1
+   ]
+  },
+  {
+   "zone": "South South",
+   "share": [
+    19.7,
+    53.9,
+    26.4
+   ]
+  },
+  {
+   "zone": "South West",
+   "share": [
+    23.0,
+    52.8,
+    24.2
+   ]
+  }
+ ],
+ "predictors": [
+  {
+   "variable": "com_zhser",
+   "label": "Cluster health-seeking score (PCA quintile)",
+   "delay": 2,
+   "rank_all": 1,
+   "rank_contact": 1,
+   "rank_refit": 1,
+   "shap_all": 0.579,
+   "shap_refit": 0.552,
+   "dir_all": "+",
+   "dir_contact": "-",
+   "dir_refit": "-"
+  },
+  {
+   "variable": "Elevation",
+   "label": "Elevation (metres)",
+   "delay": 2,
+   "rank_all": 7,
+   "rank_contact": 8,
+   "rank_refit": 2,
+   "shap_all": 0.067,
+   "shap_refit": 0.087,
+   "dir_all": "-",
+   "dir_contact": "-",
+   "dir_refit": "-"
+  },
+  {
+   "variable": "wealthx",
+   "label": "Household wealth factor score (continuous)",
+   "delay": 1,
+   "rank_all": 8,
+   "rank_contact": 5,
+   "rank_refit": 3,
+   "shap_all": 0.065,
+   "shap_refit": 0.086,
+   "dir_all": "-",
+   "dir_contact": "-",
+   "dir_refit": "-"
+  },
+  {
+   "variable": "U5_Population_2020",
+   "label": "Under-5 population count (2020)",
+   "delay": 2,
+   "rank_all": 13,
+   "rank_contact": 13,
+   "rank_refit": 4,
+   "shap_all": 0.052,
+   "shap_refit": 0.065,
+   "dir_all": "+",
+   "dir_contact": "+",
+   "dir_refit": "+"
+  },
+  {
+   "variable": "h34",
+   "label": "Vitamin A in last 6 months (raw indicator)",
+   "delay": 3,
+   "rank_all": 33,
+   "rank_contact": 34,
+   "rank_refit": 5,
+   "shap_all": 0.017,
+   "shap_refit": 0.064,
+   "dir_all": "+",
+   "dir_contact": "-",
+   "dir_refit": "-"
+  },
+  {
+   "variable": "travel_time",
+   "label": "Travel time to nearest health facility (minutes)",
+   "delay": 2,
+   "rank_all": 12,
+   "rank_contact": 11,
+   "rank_refit": 6,
+   "shap_all": 0.055,
+   "shap_refit": 0.063,
+   "dir_all": "+",
+   "dir_contact": "+",
+   "dir_refit": "+"
+  },
+  {
+   "variable": "com_illit",
+   "label": "Cluster % of mothers with no education",
+   "delay": 2,
+   "rank_all": 21,
+   "rank_contact": 22,
+   "rank_refit": 7,
+   "shap_all": 0.035,
+   "shap_refit": 0.057,
+   "dir_all": "+",
+   "dir_contact": "+",
+   "dir_refit": "+"
+  },
+  {
+   "variable": "mage",
+   "label": "Mother's age (years)",
+   "delay": 1,
+   "rank_all": 16,
+   "rank_contact": 17,
+   "rank_refit": 8,
+   "shap_all": 0.05,
+   "shap_refit": 0.055,
+   "dir_all": "-",
+   "dir_contact": "-",
+   "dir_refit": "-"
+  },
+  {
+   "variable": "Nightlights_Composite",
+   "label": "Night-time lights composite (proxy for development)",
+   "delay": 2,
+   "rank_all": 10,
+   "rank_contact": 7,
+   "rank_refit": 9,
+   "shap_all": 0.064,
+   "shap_refit": 0.051,
+   "dir_all": "-",
+   "dir_contact": "-",
+   "dir_refit": "-"
+  },
+  {
+   "variable": "Precipitation_2020",
+   "label": "Annual precipitation (2020)",
+   "delay": 2,
+   "rank_all": 15,
+   "rank_contact": 16,
+   "rank_refit": 10,
+   "shap_all": 0.05,
+   "shap_refit": 0.044,
+   "dir_all": "+",
+   "dir_contact": "+",
+   "dir_refit": "+"
+  },
+  {
+   "variable": "contact_vita",
+   "label": "Vitamin A supplementation, last 6 months",
+   "delay": 3,
+   "rank_all": 2,
+   "rank_contact": 2,
+   "rank_refit": 11,
+   "shap_all": 0.271,
+   "shap_refit": 0.041,
+   "dir_all": "+",
+   "dir_contact": "+",
+   "dir_refit": "-"
+  },
+  {
+   "variable": "tele",
+   "label": "Household has television",
+   "delay": 1,
+   "rank_all": 34,
+   "rank_contact": 33,
+   "rank_refit": 12,
+   "shap_all": 0.016,
+   "shap_refit": 0.039,
+   "dir_all": null,
+   "dir_contact": "-",
+   "dir_refit": "-"
+  },
+  {
+   "variable": "UN_Population_Density_2020",
+   "label": "Population density (2020)",
+   "delay": 2,
+   "rank_all": 14,
+   "rank_contact": 14,
+   "rank_refit": 13,
+   "shap_all": 0.05,
+   "shap_refit": 0.038,
+   "dir_all": null,
+   "dir_contact": "-",
+   "dir_refit": "+"
+  },
+  {
+   "variable": "work",
+   "label": "Mother currently working",
+   "delay": 1,
+   "rank_all": 23,
+   "rank_contact": 23,
+   "rank_refit": 14,
+   "shap_all": 0.03,
+   "shap_refit": 0.038,
+   "dir_all": null,
+   "dir_contact": "+",
+   "dir_refit": "+"
+  },
+  {
+   "variable": "ITN_Coverage_2020",
+   "label": "Insecticide-treated net coverage (2020)",
+   "delay": 2,
+   "rank_all": 11,
+   "rank_contact": 9,
+   "rank_refit": 15,
+   "shap_all": 0.06,
+   "shap_refit": 0.037,
+   "dir_all": null,
+   "dir_contact": "-",
+   "dir_refit": "-"
+  },
+  {
+   "variable": "Aridity_2020",
+   "label": "Aridity index (2020)",
+   "delay": 2,
+   "rank_all": 17,
+   "rank_contact": 15,
+   "rank_refit": 16,
+   "shap_all": 0.049,
+   "shap_refit": 0.035,
+   "dir_all": null,
+   "dir_contact": "-",
+   "dir_refit": "-"
+  },
+  {
+   "variable": "parity",
+   "label": "Number of children ever born",
+   "delay": 1,
+   "rank_all": 9,
+   "rank_contact": 6,
+   "rank_refit": 25,
+   "shap_all": 0.065,
+   "shap_refit": 0.023,
+   "dir_all": "+",
+   "dir_contact": "+",
+   "dir_refit": "+"
+  },
+  {
+   "variable": "contact_sba",
+   "label": "Facility (skilled) birth attendance",
+   "delay": 3,
+   "rank_all": 4,
+   "rank_contact": 4,
+   "rank_refit": 33,
+   "shap_all": 0.089,
+   "shap_refit": 0.007,
+   "dir_all": "+",
+   "dir_contact": "+",
+   "dir_refit": "+"
+  },
+  {
+   "variable": "contact_postnatal",
+   "label": "Postnatal check for the child",
+   "delay": 3,
+   "rank_all": 3,
+   "rank_contact": 3,
+   "rank_refit": 44,
+   "shap_all": 0.153,
+   "shap_refit": 0.002,
+   "dir_all": "+",
+   "dir_contact": "+",
+   "dir_refit": "-"
+  },
+  {
+   "variable": "contact_diarr",
+   "label": "Sought treatment for diarrhoea",
+   "delay": 3,
+   "rank_all": 6,
+   "rank_contact": 12,
+   "rank_refit": 52,
+   "shap_all": 0.071,
+   "shap_refit": 0.001,
+   "dir_all": "+",
+   "dir_contact": "+",
+   "dir_refit": "-"
+  },
+  {
+   "variable": "contact_fever_cough",
+   "label": "Sought treatment for fever/cough",
+   "delay": 3,
+   "rank_all": 5,
+   "rank_contact": 10,
+   "rank_refit": 53,
+   "shap_all": 0.072,
+   "shap_refit": 0.0,
+   "dir_all": "+",
+   "dir_contact": "+",
+   "dir_refit": null
+  }
+ ],
+ "spearman_refit_vs_contact": 0.62,
+ "importance_all": [
+  {
+   "label": "Cluster health-seeking score (PCA quintile)",
+   "delay": 2,
+   "mean_abs_shap": 0.579
+  },
+  {
+   "label": "Vitamin A supplementation, last 6 months",
+   "delay": 3,
+   "mean_abs_shap": 0.271
+  },
+  {
+   "label": "Postnatal check for the child",
+   "delay": 3,
+   "mean_abs_shap": 0.153
+  },
+  {
+   "label": "Facility (skilled) birth attendance",
+   "delay": 3,
+   "mean_abs_shap": 0.089
+  },
+  {
+   "label": "Sought treatment for fever/cough",
+   "delay": 3,
+   "mean_abs_shap": 0.072
+  },
+  {
+   "label": "Sought treatment for diarrhoea",
+   "delay": 3,
+   "mean_abs_shap": 0.071
+  },
+  {
+   "label": "Elevation (metres)",
+   "delay": 2,
+   "mean_abs_shap": 0.067
+  },
+  {
+   "label": "Household wealth factor score (continuous)",
+   "delay": 1,
+   "mean_abs_shap": 0.065
+  },
+  {
+   "label": "Number of children ever born",
+   "delay": 1,
+   "mean_abs_shap": 0.065
+  },
+  {
+   "label": "Night-time lights composite (proxy for development)",
+   "delay": 2,
+   "mean_abs_shap": 0.064
+  },
+  {
+   "label": "Insecticide-treated net coverage (2020)",
+   "delay": 2,
+   "mean_abs_shap": 0.06
+  },
+  {
+   "label": "Travel time to nearest health facility (minutes)",
+   "delay": 2,
+   "mean_abs_shap": 0.055
+  },
+  {
+   "label": "Under-5 population count (2020)",
+   "delay": 2,
+   "mean_abs_shap": 0.052
+  },
+  {
+   "label": "Population density (2020)",
+   "delay": 2,
+   "mean_abs_shap": 0.05
+  },
+  {
+   "label": "Annual precipitation (2020)",
+   "delay": 2,
+   "mean_abs_shap": 0.05
+  },
+  {
+   "label": "Mother's age (years)",
+   "delay": 1,
+   "mean_abs_shap": 0.05
+  },
+  {
+   "label": "Aridity index (2020)",
+   "delay": 2,
+   "mean_abs_shap": 0.049
+  },
+  {
+   "label": "Cluster % with any media access",
+   "delay": 2,
+   "mean_abs_shap": 0.04
+  },
+  {
+   "label": "Malaria prevalence (2020)",
+   "delay": 2,
+   "mean_abs_shap": 0.038
+  },
+  {
+   "label": "Enhanced vegetation index (2020)",
+   "delay": 2,
+   "mean_abs_shap": 0.036
+  }
+ ]
+}

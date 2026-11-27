@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="MOV Nigeria">
+  <!-- Dark rounded-square background matching site's --bg-primary -->
+  <rect x="0" y="0" width="64" height="64" rx="12" ry="12" fill="#0e1117"/>
+
+  <!-- Subtle green accent border -->
+  <rect x="1" y="1" width="62" height="62" rx="11" ry="11" fill="none" stroke="#2ecc71" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <!-- Shield silhouette — protection/immunisation metaphor -->
+  <path d="M32 12
+           L48 17
+           L48 34
+           C48 42 41 50 32 54
+           C23 50 16 42 16 34
+           L16 17 Z"
+        fill="#2ecc71"
+        opacity="0.15"/>
+  <path d="M32 12
+           L48 17
+           L48 34
+           C48 42 41 50 32 54
+           C23 50 16 42 16 34
+           L16 17 Z"
+        fill="none"
+        stroke="#2ecc71"
+        stroke-width="2.2"
+        stroke-linejoin="round"/>
+
+  <!-- Check mark inside the shield — vaccination completed -->
+  <path d="M23 33 L30 40 L42 25"
+        fill="none"
+        stroke="#2ecc71"
+        stroke-width="3.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+</svg>
