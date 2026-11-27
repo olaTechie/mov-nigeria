@@ -1,0 +1,148 @@
+{
+ "atkinson_change": [
+  {
+   "key": "A",
+   "label": "A: universal training",
+   "change": -0.000106
+  },
+  {
+   "key": "B",
+   "label": "B: targeted training",
+   "change": -0.000132
+  },
+  {
+   "key": "C",
+   "label": "C: progressive scale-up",
+   "change": -3.9e-05
+  },
+  {
+   "key": "D",
+   "label": "D: integrated delivery",
+   "change": -0.00037
+  }
+ ],
+ "equity_ratio": [
+  {
+   "key": "A",
+   "label": "A: universal training",
+   "ratio": 1.0
+  },
+  {
+   "key": "B",
+   "label": "B: targeted training",
+   "ratio": 1.574
+  },
+  {
+   "key": "C",
+   "label": "C: progressive scale-up",
+   "ratio": 1.106
+  },
+  {
+   "key": "D",
+   "label": "D: integrated delivery",
+   "ratio": 1.0
+  }
+ ],
+ "dalys_by_quintile": [
+  {
+   "key": "A",
+   "quintile": 1,
+   "dalys": 106028.0
+  },
+  {
+   "key": "A",
+   "quintile": 2,
+   "dalys": 86035.0
+  },
+  {
+   "key": "A",
+   "quintile": 3,
+   "dalys": 64338.0
+  },
+  {
+   "key": "A",
+   "quintile": 4,
+   "dalys": 59671.0
+  },
+  {
+   "key": "A",
+   "quintile": 5,
+   "dalys": 46367.0
+  },
+  {
+   "key": "B",
+   "quintile": 1,
+   "dalys": 38100.0
+  },
+  {
+   "key": "B",
+   "quintile": 2,
+   "dalys": 43463.0
+  },
+  {
+   "key": "B",
+   "quintile": 3,
+   "dalys": 37056.0
+  },
+  {
+   "key": "B",
+   "quintile": 4,
+   "dalys": 26213.0
+  },
+  {
+   "key": "B",
+   "quintile": 5,
+   "dalys": 10584.0
+  },
+  {
+   "key": "C",
+   "quintile": 1,
+   "dalys": 24285.0
+  },
+  {
+   "key": "C",
+   "quintile": 2,
+   "dalys": 21279.0
+  },
+  {
+   "key": "C",
+   "quintile": 3,
+   "dalys": 18854.0
+  },
+  {
+   "key": "C",
+   "quintile": 4,
+   "dalys": 19444.0
+  },
+  {
+   "key": "C",
+   "quintile": 5,
+   "dalys": 9600.0
+  },
+  {
+   "key": "D",
+   "quintile": 1,
+   "dalys": 396824.0
+  },
+  {
+   "key": "D",
+   "quintile": 2,
+   "dalys": 321994.0
+  },
+  {
+   "key": "D",
+   "quintile": 3,
+   "dalys": 240794.0
+  },
+  {
+   "key": "D",
+   "quintile": 4,
+   "dalys": 223326.0
+  },
+  {
+   "key": "D",
+   "quintile": 5,
+   "dalys": 173534.0
+  }
+ ]
+}

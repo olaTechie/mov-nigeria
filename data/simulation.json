@@ -1,0 +1,269 @@
+{
+ "trajectories": [
+  {
+   "year": 2024,
+   "A": 0.4887,
+   "A_lo": 0.4681,
+   "A_hi": 0.5099,
+   "B": 0.4877,
+   "B_lo": 0.4665,
+   "B_hi": 0.5145,
+   "C": 0.4885,
+   "C_lo": 0.4631,
+   "C_hi": 0.5192,
+   "D": 0.4888,
+   "D_lo": 0.4705,
+   "D_hi": 0.5095,
+   "status_quo": 0.4884,
+   "status_quo_lo": 0.4688,
+   "status_quo_hi": 0.512
+  },
+  {
+   "year": 2025,
+   "A": 0.4845,
+   "A_lo": 0.4593,
+   "A_hi": 0.5079,
+   "B": 0.4852,
+   "B_lo": 0.4574,
+   "B_hi": 0.5123,
+   "C": 0.4882,
+   "C_lo": 0.469,
+   "C_hi": 0.5084,
+   "D": 0.4125,
+   "D_lo": 0.3878,
+   "D_hi": 0.4372,
+   "status_quo": 0.4873,
+   "status_quo_lo": 0.4657,
+   "status_quo_hi": 0.5164
+  },
+  {
+   "year": 2026,
+   "A": 0.4779,
+   "A_lo": 0.4434,
+   "A_hi": 0.5024,
+   "B": 0.4829,
+   "B_lo": 0.4559,
+   "B_hi": 0.5055,
+   "C": 0.4874,
+   "C_lo": 0.4614,
+   "C_hi": 0.5112,
+   "D": 0.4063,
+   "D_lo": 0.3854,
+   "D_hi": 0.432,
+   "status_quo": 0.4897,
+   "status_quo_lo": 0.4695,
+   "status_quo_hi": 0.5121
+  },
+  {
+   "year": 2027,
+   "A": 0.4679,
+   "A_lo": 0.4454,
+   "A_hi": 0.503,
+   "B": 0.4785,
+   "B_lo": 0.4616,
+   "B_hi": 0.5095,
+   "C": 0.4838,
+   "C_lo": 0.4615,
+   "C_hi": 0.5066,
+   "D": 0.4031,
+   "D_lo": 0.3769,
+   "D_hi": 0.4307,
+   "status_quo": 0.4905,
+   "status_quo_lo": 0.4688,
+   "status_quo_hi": 0.5123
+  },
+  {
+   "year": 2028,
+   "A": 0.4612,
+   "A_lo": 0.4232,
+   "A_hi": 0.4989,
+   "B": 0.476,
+   "B_lo": 0.454,
+   "B_hi": 0.4977,
+   "C": 0.4816,
+   "C_lo": 0.4556,
+   "C_hi": 0.5065,
+   "D": 0.3986,
+   "D_lo": 0.3642,
+   "D_hi": 0.43,
+   "status_quo": 0.4864,
+   "status_quo_lo": 0.4665,
+   "status_quo_hi": 0.5139
+  },
+  {
+   "year": 2029,
+   "A": 0.4583,
+   "A_lo": 0.415,
+   "A_hi": 0.4948,
+   "B": 0.4754,
+   "B_lo": 0.4522,
+   "B_hi": 0.4996,
+   "C": 0.4763,
+   "C_lo": 0.4522,
+   "C_hi": 0.5014,
+   "D": 0.3912,
+   "D_lo": 0.3561,
+   "D_hi": 0.4232,
+   "status_quo": 0.4915,
+   "status_quo_lo": 0.4696,
+   "status_quo_hi": 0.5153
+  },
+  {
+   "year": 2030,
+   "A": 0.4502,
+   "A_lo": 0.4086,
+   "A_hi": 0.4955,
+   "B": 0.4712,
+   "B_lo": 0.4456,
+   "B_hi": 0.5051,
+   "C": 0.4771,
+   "C_lo": 0.4436,
+   "C_hi": 0.5042,
+   "D": 0.3874,
+   "D_lo": 0.3421,
+   "D_hi": 0.424,
+   "status_quo": 0.4879,
+   "status_quo_lo": 0.4676,
+   "status_quo_hi": 0.5147
+  }
+ ],
+ "status_quo_2030": {
+  "rate": 0.4879,
+  "lo": 0.4676,
+  "hi": 0.5147
+ },
+ "scenarios": [
+  {
+   "key": "A",
+   "label": "A: universal training",
+   "description": "Provider training in every cluster",
+   "rate_2030": 0.4502,
+   "rate_2030_lo": 0.4086,
+   "rate_2030_hi": 0.4955,
+   "relative_reduction_2030": 0.077,
+   "fic": 1043206.0,
+   "fic_lo": -171186.0,
+   "fic_hi": 2006214.0,
+   "dalys": 355948.0,
+   "dalys_lo": -62665.0,
+   "dalys_hi": 745367.0
+  },
+  {
+   "key": "B",
+   "label": "B: targeted training",
+   "description": "Provider training in the highest-risk 20% of clusters",
+   "rate_2030": 0.4712,
+   "rate_2030_lo": 0.4456,
+   "rate_2030_hi": 0.5051,
+   "relative_reduction_2030": 0.034,
+   "fic": 445684.0,
+   "fic_lo": -93720.0,
+   "fic_hi": 993946.0,
+   "dalys": 160478.0,
+   "dalys_lo": -34018.0,
+   "dalys_hi": 343036.0
+  },
+  {
+   "key": "C",
+   "label": "C: progressive scale-up",
+   "description": "Provider training phased in to 60% of clusters by 2030",
+   "rate_2030": 0.4771,
+   "rate_2030_lo": 0.4436,
+   "rate_2030_hi": 0.5042,
+   "relative_reduction_2030": 0.022,
+   "fic": 271283.0,
+   "fic_lo": -225609.0,
+   "fic_hi": 801113.0,
+   "dalys": 96094.0,
+   "dalys_lo": -76163.0,
+   "dalys_hi": 279902.0
+  },
+  {
+   "key": "D",
+   "label": "D: integrated delivery",
+   "description": "Provider training in every cluster plus community health-worker outreach",
+   "rate_2030": 0.3874,
+   "rate_2030_lo": 0.3421,
+   "rate_2030_hi": 0.424,
+   "relative_reduction_2030": 0.206,
+   "fic": 3904316.0,
+   "fic_lo": 3098578.0,
+   "fic_hi": 4912653.0,
+   "dalys": 1355697.0,
+   "dalys_lo": 1005761.0,
+   "dalys_hi": 1791580.0
+  }
+ ],
+ "parameters": [
+  {
+   "parameter": "Contact rate",
+   "prior": "0.5 to 1.0",
+   "post_mean": 0.907,
+   "post_sd": 0.028,
+   "range_pct": 27.0,
+   "identified": true,
+   "basis": "Centred on the survey's documented-contact prevalence (82.4%); prior width assumed"
+  },
+  {
+   "parameter": "Initial screening quality",
+   "prior": "0.3 to 1.0",
+   "post_mean": 0.618,
+   "post_sd": 0.196,
+   "range_pct": 99.0,
+   "identified": false,
+   "basis": "Assumption; no Nigerian estimate identified"
+  },
+  {
+   "parameter": "Provider peer influence",
+   "prior": "0.0 to 0.5",
+   "post_mean": 0.248,
+   "post_sd": 0.148,
+   "range_pct": 98.8,
+   "identified": false,
+   "basis": "Assumption; no published estimate identified"
+  },
+  {
+   "parameter": "Supervision effect",
+   "prior": "0.0 to 0.5",
+   "post_mean": 0.26,
+   "post_sd": 0.146,
+   "range_pct": 97.4,
+   "identified": false,
+   "basis": "Assumption; acts only under training, so status-quo targets cannot inform it"
+  },
+  {
+   "parameter": "Caregiver peer influence",
+   "prior": "0.0 to 0.3",
+   "post_mean": 0.141,
+   "post_sd": 0.085,
+   "range_pct": 98.7,
+   "identified": false,
+   "basis": "Assumption; not used by the simulation, so its posterior equals its prior"
+  }
+ ],
+ "calibration": {
+  "n_draws": 4000,
+  "n_accepted": 80,
+  "targets": 12,
+  "national_target": 0.492,
+  "rmse": 0.026
+ },
+ "effects": [
+  {
+   "key": "A",
+   "applied": "Screening-quality target 0.20 higher in every cluster from 2025; a child's risk falls in proportion to quality times the Delay 3 share (30.2%)"
+  },
+  {
+   "key": "B",
+   "applied": "Target 0.40 higher in the highest-risk 20% of clusters; same mechanism"
+  },
+  {
+   "key": "C",
+   "applied": "Target 0.20 higher, phased in to 60% of clusters by 2030; same mechanism"
+  },
+  {
+   "key": "D",
+   "applied": "Target 0.15 higher in every cluster, plus outreach: risk reduced by 30% of the Delay 2 share (0.30 x 0.543 = 16.3%) from 2025"
+  }
+ ]
+}

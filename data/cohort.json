@@ -1,0 +1,621 @@
+{
+ "flow": [
+  {
+   "step": "Children aged 0 to 59 months in the NDHS 2024 Children's Recode",
+   "n": 27783
+  },
+  {
+   "step": "Living children",
+   "n": 25577
+  },
+  {
+   "step": "Living and aged 12 to 23 months",
+   "n": 4980
+  },
+  {
+   "step": "Most recent eligible child per mother (analytic cohort)",
+   "n": 4898
+  }
+ ],
+ "n_all": 4898,
+ "n_contacted": 4038,
+ "n_not_contacted": 860,
+ "events": 2429,
+ "prev_unweighted": 0.4959,
+ "prev_weighted": 0.4921,
+ "prev_contacted_weighted": 0.6014,
+ "n_train": 3490,
+ "n_test": 1408,
+ "table1": {
+  "header": [
+   "Characteristic",
+   "Did not meet the MOV proxy (n = 2,469)",
+   "Met the MOV proxy (n = 2,429)",
+   "Standardised difference"
+  ],
+  "rows": [
+   {
+    "label": "Mother's age (years)",
+    "no_proxy": "29.084 (6.724)",
+    "proxy": "29.213 (6.974)",
+    "smd": "+0.007",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Mother's education (none/primary/secondary+)",
+    "no_proxy": "0.953 (0.947)",
+    "proxy": "1.040 (0.928)",
+    "smd": "+0.093",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Father's education (none/primary/secondary+)",
+    "no_proxy": "1.102 (0.961)",
+    "proxy": "1.204 (0.921)",
+    "smd": "+0.091",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Household wealth quintile",
+    "no_proxy": "2.794 (1.434)",
+    "proxy": "2.825 (1.367)",
+    "smd": "+0.014",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Household wealth factor score (continuous)",
+    "no_proxy": "-29,035.4 (98,074.3)",
+    "proxy": "-29,635.3 (90,165.9)",
+    "smd": "-0.017",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Mother currently working",
+    "no_proxy": "54.1%",
+    "proxy": "61.7%",
+    "smd": "+0.155",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Number of children ever born",
+    "no_proxy": "3.620 (2.328)",
+    "proxy": "3.775 (2.482)",
+    "smd": "+0.065",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Birth order of index child",
+    "no_proxy": "3.639 (2.388)",
+    "proxy": "3.815 (2.600)",
+    "smd": "+0.068",
+    "excluded_from_model": false
+   },
+   {
+    "label": "High birth order (5th child or later)",
+    "no_proxy": "29.5%",
+    "proxy": "32.8%",
+    "smd": "+0.071",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Child is male",
+    "no_proxy": "52.4%",
+    "proxy": "48.9%",
+    "smd": "-0.070",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Mother's household-decision autonomy score",
+    "no_proxy": "3.038 (1.163)",
+    "proxy": "2.949 (1.159)",
+    "smd": "-0.075",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Mother needs permission to seek healthcare",
+    "no_proxy": "12.8%",
+    "proxy": "12.5%",
+    "smd": "-0.007",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Household has television",
+    "no_proxy": "35.7%",
+    "proxy": "37.8%",
+    "smd": "+0.043",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Household has radio",
+    "no_proxy": "40.7%",
+    "proxy": "44.4%",
+    "smd": "+0.075",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Household has print media access",
+    "no_proxy": "7.3%",
+    "proxy": "6.6%",
+    "smd": "-0.029",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Any media access (TV, radio, or print)",
+    "no_proxy": "50.0%",
+    "proxy": "54.0%",
+    "smd": "+0.080",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Household size",
+    "no_proxy": "6.748 (3.640)",
+    "proxy": "6.700 (3.708)",
+    "smd": "-0.008",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Female-headed household",
+    "no_proxy": "8.6%",
+    "proxy": "11.8%",
+    "smd": "+0.107",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Mother in a polygynous union",
+    "no_proxy": "26.9%",
+    "proxy": "24.9%",
+    "smd": "-0.045",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Number of children under 5 in household",
+    "no_proxy": "2.122 (1.187)",
+    "proxy": "2.054 (1.169)",
+    "smd": "-0.035",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Willing to receive a COVID-19 vaccine",
+    "no_proxy": "20.9%",
+    "proxy": "20.4%",
+    "smd": "-0.012",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Received a COVID-19 vaccine",
+    "no_proxy": "24.2%",
+    "proxy": "25.8%",
+    "smd": "+0.037",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Rural place of residence",
+    "no_proxy": "62.0%",
+    "proxy": "58.7%",
+    "smd": "-0.066",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Geopolitical zone: North Central",
+    "no_proxy": "14.7%",
+    "proxy": "17.6%",
+    "smd": "+0.079",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Geopolitical zone: North East",
+    "no_proxy": "18.4%",
+    "proxy": "20.9%",
+    "smd": "+0.061",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Geopolitical zone: North West",
+    "no_proxy": "41.6%",
+    "proxy": "35.2%",
+    "smd": "-0.131",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Geopolitical zone: South East",
+    "no_proxy": "6.4%",
+    "proxy": "8.0%",
+    "smd": "+0.059",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Geopolitical zone: South South",
+    "no_proxy": "8.5%",
+    "proxy": "7.5%",
+    "smd": "-0.038",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Geopolitical zone: South West",
+    "no_proxy": "10.3%",
+    "proxy": "10.8%",
+    "smd": "+0.018",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Travel time to nearest health facility (minutes)",
+    "no_proxy": "26.121 (38.484)",
+    "proxy": "25.114 (25.974)",
+    "smd": "-0.030",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Cluster % of households in poorest wealth quintile",
+    "no_proxy": "25.268 (33.597)",
+    "proxy": "22.054 (31.667)",
+    "smd": "-0.110",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Cluster % of mothers with no education",
+    "no_proxy": "46.922 (41.745)",
+    "proxy": "41.491 (39.902)",
+    "smd": "-0.117",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Cluster % of mothers not working",
+    "no_proxy": "44.914 (31.690)",
+    "proxy": "39.284 (29.710)",
+    "smd": "-0.162",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Cluster % with any media access",
+    "no_proxy": "50.836 (37.560)",
+    "proxy": "53.178 (36.969)",
+    "smd": "+0.046",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Cluster % female-headed households",
+    "no_proxy": "9.075 (18.552)",
+    "proxy": "11.307 (20.748)",
+    "smd": "+0.098",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Cluster % recently-moved (visitor) households",
+    "no_proxy": "1.956 (8.791)",
+    "proxy": "1.973 (8.701)",
+    "smd": "-0.011",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Cluster ethnic diversity (Herfindahl index)",
+    "no_proxy": "21.498 (24.757)",
+    "proxy": "23.004 (26.296)",
+    "smd": "+0.029",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Cluster socioeconomic-status score (PCA quintile)",
+    "no_proxy": "3.131 (1.428)",
+    "proxy": "2.939 (1.323)",
+    "smd": "-0.119",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Cluster health-seeking score (PCA quintile)",
+    "no_proxy": "3.027 (1.611)",
+    "proxy": "3.238 (1.383)",
+    "smd": "+0.116",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Population density (2020)",
+    "no_proxy": "1,430.2 (4,310.1)",
+    "proxy": "1,691.8 (4,452.1)",
+    "smd": "+0.017",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Under-5 population count (2020)",
+    "no_proxy": "6,042.9 (13,802.7)",
+    "proxy": "6,888.2 (14,538.6)",
+    "smd": "+0.024",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Modelled travel time to nearest settlement",
+    "no_proxy": "28.096 (37.280)",
+    "proxy": "26.953 (37.352)",
+    "smd": "-0.065",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Night-time lights composite (proxy for development)",
+    "no_proxy": "1.404 (3.976)",
+    "proxy": "1.659 (5.432)",
+    "smd": "+0.026",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Malaria prevalence (2020)",
+    "no_proxy": "0.218 (0.112)",
+    "proxy": "0.225 (0.122)",
+    "smd": "+0.078",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Elevation (metres)",
+    "no_proxy": "345.1 (221.4)",
+    "proxy": "341.2 (229.4)",
+    "smd": "-0.025",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Enhanced vegetation index (2020)",
+    "no_proxy": "0.265 (0.069)",
+    "proxy": "0.271 (0.074)",
+    "smd": "+0.101",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Aridity index (2020)",
+    "no_proxy": "24.901 (15.371)",
+    "proxy": "25.434 (15.231)",
+    "smd": "+0.044",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Annual precipitation (2020)",
+    "no_proxy": "103.1 (34.746)",
+    "proxy": "103.8 (35.193)",
+    "smd": "+0.032",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Insecticide-treated net coverage (2020)",
+    "no_proxy": "0.460 (0.205)",
+    "proxy": "0.445 (0.196)",
+    "smd": "-0.092",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Facility (skilled) birth attendance",
+    "no_proxy": "38.7%",
+    "proxy": "49.3%",
+    "smd": "+0.216",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Vitamin A supplementation, last 6 months",
+    "no_proxy": "37.9%",
+    "proxy": "44.2%",
+    "smd": "+0.128",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Has a health card (any status)",
+    "no_proxy": "64.2%",
+    "proxy": "70.8%",
+    "smd": "+0.141",
+    "excluded_from_model": true
+   },
+   {
+    "label": "Sought treatment for diarrhoea",
+    "no_proxy": "6.4%",
+    "proxy": "12.5%",
+    "smd": "+0.210",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Sought treatment for fever/cough",
+    "no_proxy": "6.4%",
+    "proxy": "13.5%",
+    "smd": "+0.239",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Postnatal check for the child",
+    "no_proxy": "12.0%",
+    "proxy": "19.4%",
+    "smd": "+0.205",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Count of contact types (0-6)",
+    "no_proxy": "1.656 (1.459)",
+    "proxy": "2.098 (0.998)",
+    "smd": "+0.324",
+    "excluded_from_model": true
+   },
+   {
+    "label": "Place where most vaccinations were received: not recorded",
+    "no_proxy": "34.5%",
+    "proxy": "27.1%",
+    "smd": "-0.160",
+    "excluded_from_model": true
+   },
+   {
+    "label": "Place where most vaccinations were received: Teaching hospital",
+    "no_proxy": "0.8%",
+    "proxy": "0.6%",
+    "smd": "-0.026",
+    "excluded_from_model": true
+   },
+   {
+    "label": "Place where most vaccinations were received: Federal medical centre",
+    "no_proxy": "0.9%",
+    "proxy": "0.5%",
+    "smd": "-0.041",
+    "excluded_from_model": true
+   },
+   {
+    "label": "Place where most vaccinations were received: General hospital",
+    "no_proxy": "8.1%",
+    "proxy": "10.9%",
+    "smd": "+0.094",
+    "excluded_from_model": true
+   },
+   {
+    "label": "Place where most vaccinations were received: Primary health care centre",
+    "no_proxy": "37.7%",
+    "proxy": "36.5%",
+    "smd": "-0.025",
+    "excluded_from_model": true
+   },
+   {
+    "label": "Place where most vaccinations were received: Primary health clinic",
+    "no_proxy": "9.0%",
+    "proxy": "12.2%",
+    "smd": "+0.106",
+    "excluded_from_model": true
+   },
+   {
+    "label": "Place where most vaccinations were received: Health post",
+    "no_proxy": "2.2%",
+    "proxy": "2.6%",
+    "smd": "+0.026",
+    "excluded_from_model": true
+   },
+   {
+    "label": "Place where most vaccinations were received: Other public sector",
+    "no_proxy": "0.0%",
+    "proxy": "0.0%",
+    "smd": "+0.017",
+    "excluded_from_model": true
+   },
+   {
+    "label": "Place where most vaccinations were received: Private hospital",
+    "no_proxy": "2.9%",
+    "proxy": "3.5%",
+    "smd": "+0.030",
+    "excluded_from_model": true
+   },
+   {
+    "label": "Place where most vaccinations were received: Private clinic",
+    "no_proxy": "0.6%",
+    "proxy": "0.8%",
+    "smd": "+0.019",
+    "excluded_from_model": true
+   },
+   {
+    "label": "Place where most vaccinations were received: Pharmacy",
+    "no_proxy": "0.2%",
+    "proxy": "0.0%",
+    "smd": "-0.040",
+    "excluded_from_model": true
+   },
+   {
+    "label": "Place where most vaccinations were received: Patent and proprietary medicine vendors (PPMV)",
+    "no_proxy": "0.0%",
+    "proxy": "0.0%",
+    "smd": "-0.016",
+    "excluded_from_model": true
+   },
+   {
+    "label": "Place where most vaccinations were received: Private doctor",
+    "no_proxy": "0.0%",
+    "proxy": "0.0%",
+    "smd": "-0.005",
+    "excluded_from_model": true
+   },
+   {
+    "label": "Place where most vaccinations were received: Mobile clinic",
+    "no_proxy": "0.1%",
+    "proxy": "0.2%",
+    "smd": "+0.021",
+    "excluded_from_model": true
+   },
+   {
+    "label": "Place where most vaccinations were received: Maternity centre",
+    "no_proxy": "1.1%",
+    "proxy": "0.9%",
+    "smd": "-0.018",
+    "excluded_from_model": true
+   },
+   {
+    "label": "Place where most vaccinations were received: Faith-based hospital",
+    "no_proxy": "0.1%",
+    "proxy": "0.1%",
+    "smd": "-0.021",
+    "excluded_from_model": true
+   },
+   {
+    "label": "Place where most vaccinations were received: Faith-based clinic",
+    "no_proxy": "0.0%",
+    "proxy": "0.1%",
+    "smd": "+0.036",
+    "excluded_from_model": true
+   },
+   {
+    "label": "Place where most vaccinations were received: Other NGO medical sector",
+    "no_proxy": "0.0%",
+    "proxy": "0.5%",
+    "smd": "+0.091",
+    "excluded_from_model": true
+   },
+   {
+    "label": "Place where most vaccinations were received: Vaccination campaign",
+    "no_proxy": "1.7%",
+    "proxy": "3.5%",
+    "smd": "+0.114",
+    "excluded_from_model": true
+   },
+   {
+    "label": "Health card status (none to both seen, ordinal)",
+    "no_proxy": "0.709 (0.851)",
+    "proxy": "0.638 (0.922)",
+    "smd": "-0.071",
+    "excluded_from_model": true
+   },
+   {
+    "label": "4 or more antenatal care visits",
+    "no_proxy": "54.7%",
+    "proxy": "58.5%",
+    "smd": "+0.075",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Postnatal check for the mother (pre-discharge)",
+    "no_proxy": "32.0%",
+    "proxy": "39.3%",
+    "smd": "+0.153",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Postnatal check for the child (raw indicator)",
+    "no_proxy": "0.149 (0.553)",
+    "proxy": "0.220 (0.560)",
+    "smd": "+0.119",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Postnatal check for the child (pre-discharge)",
+    "no_proxy": "0.319 (0.522)",
+    "proxy": "0.394 (0.618)",
+    "smd": "+0.125",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Household has health insurance",
+    "no_proxy": "3.0%",
+    "proxy": "2.5%",
+    "smd": "-0.030",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Vitamin A in last 6 months (raw indicator)",
+    "no_proxy": "0.388 (0.545)",
+    "proxy": "0.452 (0.559)",
+    "smd": "+0.122",
+    "excluded_from_model": false
+   },
+   {
+    "label": "Mother visited by a family-planning fieldworker in the past 12 months",
+    "no_proxy": "11.6%",
+    "proxy": "12.7%",
+    "smd": "+0.031",
+    "excluded_from_model": false
+   }
+  ],
+  "note": "Means (SD) or percentages, unweighted, as printed in Table 1 of the manuscript. Rows marked as not used were excluded from the prediction model because they encode the outcome too directly."
+ }
+}

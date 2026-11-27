@@ -1,0 +1,347 @@
+{
+ "states": [
+  {
+   "name": "Abia",
+   "n": 79,
+   "cases": 53,
+   "prev_weighted": 0.7111,
+   "fully_vaccinated_weighted": 0.2745,
+   "contact_weighted": 0.9857,
+   "mean_predicted": 0.5219
+  },
+  {
+   "name": "Kogi",
+   "n": 121,
+   "cases": 77,
+   "prev_weighted": 0.6508,
+   "fully_vaccinated_weighted": 0.1526,
+   "contact_weighted": 0.8035,
+   "mean_predicted": 0.5983
+  },
+  {
+   "name": "Borno",
+   "n": 160,
+   "cases": 100,
+   "prev_weighted": 0.6424,
+   "fully_vaccinated_weighted": 0.26,
+   "contact_weighted": 0.9024,
+   "mean_predicted": 0.5946
+  },
+  {
+   "name": "Akwa Ibom",
+   "n": 78,
+   "cases": 49,
+   "prev_weighted": 0.6286,
+   "fully_vaccinated_weighted": 0.3216,
+   "contact_weighted": 0.9502,
+   "mean_predicted": 0.5462
+  },
+  {
+   "name": "Plateau",
+   "n": 156,
+   "cases": 94,
+   "prev_weighted": 0.6185,
+   "fully_vaccinated_weighted": 0.2299,
+   "contact_weighted": 0.8483,
+   "mean_predicted": 0.5567
+  },
+  {
+   "name": "Oyo",
+   "n": 90,
+   "cases": 56,
+   "prev_weighted": 0.6167,
+   "fully_vaccinated_weighted": 0.2705,
+   "contact_weighted": 0.8872,
+   "mean_predicted": 0.5145
+  },
+  {
+   "name": "Benue",
+   "n": 99,
+   "cases": 62,
+   "prev_weighted": 0.6151,
+   "fully_vaccinated_weighted": 0.2178,
+   "contact_weighted": 0.8329,
+   "mean_predicted": 0.5536
+  },
+  {
+   "name": "Federal Capital Territory",
+   "n": 86,
+   "cases": 50,
+   "prev_weighted": 0.5991,
+   "fully_vaccinated_weighted": 0.3882,
+   "contact_weighted": 0.9872,
+   "mean_predicted": 0.4968
+  },
+  {
+   "name": "Adamawa",
+   "n": 151,
+   "cases": 91,
+   "prev_weighted": 0.5928,
+   "fully_vaccinated_weighted": 0.352,
+   "contact_weighted": 0.9449,
+   "mean_predicted": 0.5753
+  },
+  {
+   "name": "Anambra",
+   "n": 94,
+   "cases": 57,
+   "prev_weighted": 0.5881,
+   "fully_vaccinated_weighted": 0.4023,
+   "contact_weighted": 0.9904,
+   "mean_predicted": 0.479
+  },
+  {
+   "name": "Ogun",
+   "n": 104,
+   "cases": 60,
+   "prev_weighted": 0.5729,
+   "fully_vaccinated_weighted": 0.4185,
+   "contact_weighted": 0.9914,
+   "mean_predicted": 0.4966
+  },
+  {
+   "name": "Yobe",
+   "n": 208,
+   "cases": 114,
+   "prev_weighted": 0.572,
+   "fully_vaccinated_weighted": 0.3248,
+   "contact_weighted": 0.8968,
+   "mean_predicted": 0.5747
+  },
+  {
+   "name": "Taraba",
+   "n": 129,
+   "cases": 72,
+   "prev_weighted": 0.5494,
+   "fully_vaccinated_weighted": 0.2341,
+   "contact_weighted": 0.7835,
+   "mean_predicted": 0.5167
+  },
+  {
+   "name": "Ebonyi",
+   "n": 173,
+   "cases": 89,
+   "prev_weighted": 0.5369,
+   "fully_vaccinated_weighted": 0.4631,
+   "contact_weighted": 1.0,
+   "mean_predicted": 0.5651
+  },
+  {
+   "name": "Nasarawa",
+   "n": 133,
+   "cases": 69,
+   "prev_weighted": 0.5359,
+   "fully_vaccinated_weighted": 0.4143,
+   "contact_weighted": 0.9502,
+   "mean_predicted": 0.5773
+  },
+  {
+   "name": "Katsina",
+   "n": 201,
+   "cases": 106,
+   "prev_weighted": 0.5306,
+   "fully_vaccinated_weighted": 0.275,
+   "contact_weighted": 0.8056,
+   "mean_predicted": 0.4392
+  },
+  {
+   "name": "Enugu",
+   "n": 78,
+   "cases": 40,
+   "prev_weighted": 0.5165,
+   "fully_vaccinated_weighted": 0.4671,
+   "contact_weighted": 0.9836,
+   "mean_predicted": 0.5154
+  },
+  {
+   "name": "Cross River",
+   "n": 66,
+   "cases": 33,
+   "prev_weighted": 0.5034,
+   "fully_vaccinated_weighted": 0.4966,
+   "contact_weighted": 1.0,
+   "mean_predicted": 0.5644
+  },
+  {
+   "name": "Gombe",
+   "n": 174,
+   "cases": 86,
+   "prev_weighted": 0.4993,
+   "fully_vaccinated_weighted": 0.3728,
+   "contact_weighted": 0.8721,
+   "mean_predicted": 0.5422
+  },
+  {
+   "name": "Kaduna",
+   "n": 221,
+   "cases": 101,
+   "prev_weighted": 0.4835,
+   "fully_vaccinated_weighted": 0.3041,
+   "contact_weighted": 0.7876,
+   "mean_predicted": 0.4874
+  },
+  {
+   "name": "Edo",
+   "n": 79,
+   "cases": 40,
+   "prev_weighted": 0.4805,
+   "fully_vaccinated_weighted": 0.5195,
+   "contact_weighted": 1.0,
+   "mean_predicted": 0.4862
+  },
+  {
+   "name": "Kano",
+   "n": 273,
+   "cases": 124,
+   "prev_weighted": 0.4788,
+   "fully_vaccinated_weighted": 0.3135,
+   "contact_weighted": 0.7923,
+   "mean_predicted": 0.4654
+  },
+  {
+   "name": "Ekiti",
+   "n": 50,
+   "cases": 24,
+   "prev_weighted": 0.4695,
+   "fully_vaccinated_weighted": 0.5305,
+   "contact_weighted": 1.0,
+   "mean_predicted": 0.5153
+  },
+  {
+   "name": "Ondo",
+   "n": 62,
+   "cases": 28,
+   "prev_weighted": 0.4693,
+   "fully_vaccinated_weighted": 0.4664,
+   "contact_weighted": 0.9357,
+   "mean_predicted": 0.4835
+  },
+  {
+   "name": "Imo",
+   "n": 114,
+   "cases": 51,
+   "prev_weighted": 0.4588,
+   "fully_vaccinated_weighted": 0.5412,
+   "contact_weighted": 1.0,
+   "mean_predicted": 0.4558
+  },
+  {
+   "name": "Niger",
+   "n": 172,
+   "cases": 81,
+   "prev_weighted": 0.455,
+   "fully_vaccinated_weighted": 0.2386,
+   "contact_weighted": 0.6936,
+   "mean_predicted": 0.5272
+  },
+  {
+   "name": "Osun",
+   "n": 66,
+   "cases": 31,
+   "prev_weighted": 0.4463,
+   "fully_vaccinated_weighted": 0.537,
+   "contact_weighted": 0.9833,
+   "mean_predicted": 0.4858
+  },
+  {
+   "name": "Rivers",
+   "n": 100,
+   "cases": 47,
+   "prev_weighted": 0.4462,
+   "fully_vaccinated_weighted": 0.423,
+   "contact_weighted": 0.8691,
+   "mean_predicted": 0.4325
+  },
+  {
+   "name": "Jigawa",
+   "n": 205,
+   "cases": 90,
+   "prev_weighted": 0.4281,
+   "fully_vaccinated_weighted": 0.4622,
+   "contact_weighted": 0.8904,
+   "mean_predicted": 0.4846
+  },
+  {
+   "name": "Lagos",
+   "n": 99,
+   "cases": 39,
+   "prev_weighted": 0.4188,
+   "fully_vaccinated_weighted": 0.5812,
+   "contact_weighted": 1.0,
+   "mean_predicted": 0.4224
+  },
+  {
+   "name": "Delta",
+   "n": 105,
+   "cases": 45,
+   "prev_weighted": 0.4152,
+   "fully_vaccinated_weighted": 0.5702,
+   "contact_weighted": 0.9854,
+   "mean_predicted": 0.4345
+  },
+  {
+   "name": "Kwara",
+   "n": 107,
+   "cases": 42,
+   "prev_weighted": 0.3984,
+   "fully_vaccinated_weighted": 0.2868,
+   "contact_weighted": 0.6853,
+   "mean_predicted": 0.4558
+  },
+  {
+   "name": "Bauchi",
+   "n": 207,
+   "cases": 79,
+   "prev_weighted": 0.3972,
+   "fully_vaccinated_weighted": 0.4106,
+   "contact_weighted": 0.8078,
+   "mean_predicted": 0.4338
+  },
+  {
+   "name": "Zamfara",
+   "n": 139,
+   "cases": 59,
+   "prev_weighted": 0.3909,
+   "fully_vaccinated_weighted": 0.0503,
+   "contact_weighted": 0.4412,
+   "mean_predicted": 0.3389
+  },
+  {
+   "name": "Kebbi",
+   "n": 223,
+   "cases": 93,
+   "prev_weighted": 0.3775,
+   "fully_vaccinated_weighted": 0.0742,
+   "contact_weighted": 0.4518,
+   "mean_predicted": 0.3739
+  },
+  {
+   "name": "Sokoto",
+   "n": 214,
+   "cases": 72,
+   "prev_weighted": 0.3355,
+   "fully_vaccinated_weighted": 0.0692,
+   "contact_weighted": 0.4047,
+   "mean_predicted": 0.3516
+  },
+  {
+   "name": "Bayelsa",
+   "n": 82,
+   "cases": 25,
+   "prev_weighted": 0.2741,
+   "fully_vaccinated_weighted": 0.6313,
+   "contact_weighted": 0.9054,
+   "mean_predicted": 0.3969
+  }
+ ],
+ "highest": {
+  "name": "Abia",
+  "prev": 0.7111
+ },
+ "lowest": {
+  "name": "Bayelsa",
+  "prev": 0.2741
+ },
+ "national_weighted": 0.4921,
+ "note": "Survey-weighted, 4,898-child analytic cohort, one record per child (revision step 15). Predicted risk: survey-weighted mean of out-of-sample predicted probabilities from the primary model (out-of-fold for training children, held out for test children); a model summary, not a table in the paper."
+}
